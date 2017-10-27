@@ -67,12 +67,12 @@ pip install keras
 
 To run the file, again, go to anaconda prompt, 
 
-```
+```Command Prompt
 activate deeplearning
 python mnist_mlp.py
 ```
 
-```
 
-```
+
+
 
