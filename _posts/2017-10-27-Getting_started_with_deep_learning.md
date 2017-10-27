@@ -22,6 +22,9 @@ Also, make sure you have a pretty decent Nvidia graphics card if you are using l
 
 With that, let us begin. 
 
+
+## Tutorial 
+
 * There will be 2 prerequisite to be able to run deep learning. We need to have **CUDA Toolkit 8.0** as well as **cuDNN v5.1 for CUDA 8.0**. As for now, you have to exact version of the 2 programs. 
  
 
