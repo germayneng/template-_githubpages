@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Tutorial to installing keras + Tensorflow'
+title: 'Easy guide to installing keras + Tensorflow'
 category: tutorial
 tags: [python, deep, learning, tensorflow, keras ]
 comments: true
