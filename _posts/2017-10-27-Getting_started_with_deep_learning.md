@@ -44,7 +44,7 @@ If you do not understand about environmental path, what you need to do is: Right
 conda create -n deeplearning python=3.5 numpy scipy matplotlib spyder ipython notebook
 
 ```
-You can replace `deeplearning` with any name you want to. deeplearning is the name of the new python environment you will be creating. 
+You can replace `deeplearning` with any name you want to. `deeplearning` is the name of the new python environment you will be creating. In this tutorial, I will be creating my environment as `deeplearning`
 
 5. Once done, you must activate this environment. In future, if you want to do your deep learning, you must first activate this environment before proceeding: 
 
