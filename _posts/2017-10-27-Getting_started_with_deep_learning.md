@@ -31,7 +31,7 @@ we will get cuDNN v5.1[here](https://developer.nvidia.com/rdp/cudnn-download) as
 
 3. Now, place your entire cuDNN file (unzipped) into your C: directory. Once that is done, you will have to add this to the environement path. 
 
-```Command Prompt
+```
 C:\cudnn-8.0-windows10-x64-v5.1\cuda\bin
 
 ```
@@ -40,7 +40,7 @@ If you do not understand about environmental path, what you need to do is: Right
 
 4. Create a new python environment soley for this. To do so, open **anaconda prompt** and type this:
 
-```Command Prompt
+```
 conda create -n deeplearning python=3.5 numpy scipy matplotlib spyder ipython notebook
 
 ```
@@ -48,21 +48,21 @@ You can replace `deeplearning` with any name you want to. deeplearning is the na
 
 5. Once done, you must activate this environment. In future, if you want to do your deep learning, you must first activate this environment before proceeding: 
 
-```Command Prompt
+```
 activate deeplearning
 
 ```
 
 Then with deeplearning environment activated, 
 
-```Command Prompt
+```
 pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-1.0.1-cp35-cp35m-win_amd64.whl
 
 ```
 
 Once it is done, continue to install keras: 
 
-```Command Prompt
+```
 pip install keras
 
 ```
@@ -71,7 +71,7 @@ pip install keras
 
 To run the file, again, go to anaconda prompt, 
 
-```Command Prompt
+```
 activate deeplearning
 python mnist_mlp.py
 ```
