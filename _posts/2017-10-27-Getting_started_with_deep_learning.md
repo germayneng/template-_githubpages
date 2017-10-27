@@ -13,8 +13,8 @@ Getting ready for deep learning is not as hard as you might think.
 Today, in this post, we will go through a simply tutorial to get started with deep learning on your pc/ laptop. Many people are freaked out at the initial set up process. It is not as complex as you think so, 
 let us get on to it! At the end of this post, you will be able to install tensorflow with keras backend on your laptop and you will be able to start running some deep learning models like a scientist! 
 
-
-
+<center><img src = "https://pm1.narvii.com/6444/077b1161a0cc5f63905da24884d70a0ce6e6b2ba_hq.jpg"></center>
+_[<center>what i feel when i think of deep learning</center>]()
 
 
 
