@@ -72,6 +72,14 @@ activate deeplearning
 python mnist_mlp.py
 ```
 
+## Others 
+
+* if for some reason you are not installing correctly, you can check if tensorflow is using gpu. You should see **GPU** appearing.  
+
+```python 
+from tensorflow.python.client import device_lib
+print(device_lib.list_local_devices())
+```
 
 
 
