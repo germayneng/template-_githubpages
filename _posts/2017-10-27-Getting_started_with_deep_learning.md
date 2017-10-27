@@ -23,8 +23,7 @@ Also, make sure you have a pretty decent Nvidia graphics card if you are using l
 With that, let us begin. 
 
 1. There will be 2 prerequisite to be able to run deep learning. We need to have **CUDA Toolkit 8.0** as well as **cuDNN v5.1 for CUDA 8.0**. As for now, you have to exact version of the 2 programs. 
-
-<center><img src = "/image/"></center> 
+ 
 
 we will get cuDNN v5.1[here](https://developer.nvidia.com/rdp/cudnn-download) as well as cuda 8.0 under the arhieves [here](https://developer.nvidia.com/cuda-toolkit-archive)
 
@@ -34,6 +33,7 @@ we will get cuDNN v5.1[here](https://developer.nvidia.com/rdp/cudnn-download) as
 
 ```Command Prompt
 C:\cudnn-8.0-windows10-x64-v5.1\cuda\bin
+
 ```
 
 If you do not understand about environmental path, what you need to do is: Right click my computer > advanced system settings > environmental variables. You will see system variables. Scroll to this PATH variable and add the above line into it.
@@ -42,6 +42,7 @@ If you do not understand about environmental path, what you need to do is: Right
 
 ```Command Prompt
 conda create -n deeplearning python=3.5 numpy scipy matplotlib spyder ipython notebook
+
 ```
 You can replace `deeplearning` with any name you want to. deeplearning is the name of the new python environment you will be creating. 
 
@@ -49,18 +50,21 @@ You can replace `deeplearning` with any name you want to. deeplearning is the na
 
 ```Command Prompt
 activate deeplearning
+
 ```
 
 Then with deeplearning environment activated, 
 
 ```Command Prompt
 pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-1.0.1-cp35-cp35m-win_amd64.whl
+
 ```
 
 Once it is done, continue to install keras: 
 
 ```Command Prompt
 pip install keras
+
 ```
 
 6. At this point, you are done! [Download this](https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/examples/mnist_mlp.py) sample py file and run it. It should take few minutes, indicating everything is done correctly. 
