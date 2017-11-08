@@ -20,6 +20,11 @@ image:
 
 * Contact me if you want to discuss on data science / machine learning :)
 
-# Other platforms 
+## Other fun facts about me
+
+* I am an dog lover :) 
+
+
+## Other platforms 
 
 * [kaggle](https://www.kaggle.com/germmie)
