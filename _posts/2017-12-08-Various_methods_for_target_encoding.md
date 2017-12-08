@@ -39,11 +39,11 @@ Target encoding is very strong. Because you can think of it as an classifier / e
 
 Since you are mapping your target variable onto your categorical variables, if you are not doing it correctly, you are basically leaking your target variable as your features. The consequences will be that you are predicting your target variable using your target variable. A recipe for disaster. 
 
-As such, one method will be to include it as part of the cv fold during your modelling process. By encoding it this way, you are limiting the leakage from going onto the test set. You compute the target encoding using only the validation set. Also, notice that if you are including the target encoding with your cv fold, you are ensuring that **the cv fold is aligned with your target encoding fold**. If you think target encoding like a classifier, then it is stacking and hence, it is important to align the **cv folds** as you move from layer to layer to **minimize leakage**. (we will talk more about this in another article) 
+As such, one method will be to include it as part of the cv fold during your modelling process. By encoding it this way, you are limiting the leakage from going onto the test set. You compute the target encoding using only the train set split. Also, notice that if you are including the target encoding with your cv fold, you are ensuring that **the cv fold is aligned with your target encoding fold**. If you think target encoding like a classifier, then it is stacking and hence, it is important to align the **cv folds** as you move from layer to layer to **minimize leakage**. (we will talk more about this in another article) 
+
+So for each cv fold, split train to train-valid set. Now, perform your target encoding on your train set, and use the train set to compute the valid set's encoding as well as the test set's encoding. (Using this method means you are going to average the test prediction across all folds) 
+
 
 Another way is to include random noise to cover the impact of leakage. In other words, this noise is a parameter you can tune for your "target encoding" classifier. 
 
 
-$$ 
-objective = RSS (\beta) + \lambda \Bigg[ (1-\alpha) \sum_{i = 1}^{M} \beta_i ^2 + (\alpha)\sum_{i = 1}^{M} | \beta_i | \Bigg]
-$$
