@@ -26,7 +26,9 @@ As you can see, this gives the order that cat > car > dog.
 
 As such, there must be a better way to deal with this. There are many tricks that can handle this problem. But for today, let us talk about target encoding. Target encoding basically maps the target variable to each category. Mathematically, you can think of it as the probability of the target, conditional on the category. One context will be what is the probability that it is a 1 given you are a dog / car / cat. 
 
-$$P(Y | X_{i} ) $$ 
+$$
+P(Y | X_{i} ) 
+$$ 
 
 Target encoding is very strong. Because you can think of it as an classifier / estimator. And using it in a model is similar to stacking. As such, wrong implementation of it will result in heavy leakage. 
 
