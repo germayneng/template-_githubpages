@@ -53,4 +53,11 @@ Also, notice that if you are including the target encoding with your cv fold, yo
 ### Noise 
 Another way is to include random noise to cover the impact of leakage. In other words, this noise is a parameter you can tune for your "target encoding" classifier. 
 
+### Smoothing function 
+This concept was used in the recent Perto Seguro kaggle competition. One of the top winner Jacek implemented this function 
 
+$$
+smooth \ = \frac{1}{1 + e^ \frac{-(count_{i} - min\; sample \; leaf )}{smoothing \; function}}
+$$
+
+The smoothing function is used as a weight to control the contribution of the target encoding for each categorical. Although the implementaion of target encoding is slightly different. 
