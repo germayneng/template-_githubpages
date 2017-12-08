@@ -43,3 +43,7 @@ As such, one method will be to include it as part of the cv fold during your mod
 
 Another way is to include random noise to cover the impact of leakage. In other words, this noise is a parameter you can tune for your "target encoding" classifier. 
 
+
+$$ 
+objective = RSS (\beta) + \lambda \Bigg[ (1-\alpha) \sum_{i = 1}^{M} \beta_i ^2 + (\alpha)\sum_{i = 1}^{M} | \beta_i | \Bigg]
+$$
