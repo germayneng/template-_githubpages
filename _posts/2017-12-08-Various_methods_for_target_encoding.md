@@ -8,7 +8,7 @@ comments: true
 
 I was first introduced to target encoding from the [Mercedes kaggle competition](). There were a few problems with some of the categorical variables. 
 
-1. For variable $$X_{i}$$, there are some categories that are present in the test set, which the train set does not have. 
+1. For variable $$ X_{i} $$, there are some categories that are present in the test set, which the train set does not have. 
 2. Some categorical variables are so sparse (number of uniques) that traditional OHE methods does not seem that useful here. 
 
 For 2, numerical mapping can be used to resolve the problem. Check out my custom package `dog encode` at my github. The label encoding function will work as such. If you are using python, sklearn.preprocessing has this label encoder that does the same (you can fit the transformation to both the train and test). 
