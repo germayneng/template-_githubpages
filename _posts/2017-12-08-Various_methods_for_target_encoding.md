@@ -6,6 +6,9 @@ tags: [python, feature, engineering, machine, learning, R ]
 comments: true
 ---
 
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 I was first introduced to target encoding from the [Mercedes kaggle competition](). There were a few problems with some of the categorical variables. 
 
 1. For variable $$ X_{i} $$, there are some categories that are present in the test set, which the train set does not have. 
