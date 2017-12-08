@@ -43,9 +43,12 @@ Since you are mapping your target variable onto your categorical variables, if y
 
 First common mistake is CV. If you use target encoding, make sure your valid set is not part of the target encoding computation. The valid set should be build using the aggregated values from the train fold. The test set is also build using the aggregated values from the train fold. So for example: 
 <br>
+<br>
 cv1: train fold 1 , valid fold 1 , test.
 <br>
+<br>
 Train goes through target encoding. Valid and test merge with aggregate from train 
+<br>
 <br>
 By encoding it this way, you are limiting the leakage from going onto the test set. You compute the target encoding using only the train fold. Otherwise, your cv will be not as accurate as you think (inflated due to leakage if your valid fold contributes to train fold's encoding.)
 Also, notice that if you are including the target encoding with your cv fold, you are ensuring that **the cv fold is aligned with your target encoding fold**. If you think target encoding like a classifier, then it is stacking and hence, it is important to align the **cv folds** as you move from layer to layer to **minimize leakage**. (we will talk more about this in another article) 
