@@ -61,7 +61,7 @@ Another way is to include random noise to cover the impact of leakage. In other 
 This concept was used in the recent Perto Seguro kaggle competition. One of the top winner Jacek implemented this function 
 
 $$
-smooth \ = \frac{1}{1 + e^ \frac{-(count_{i} - min\; sample \; leaf )}{smoothing \; function}}
+weight \ = \frac{1}{1 + e^ \frac{-(count_{i} - min\; sample \; leaf )}{smoothing \; function}}
 $$
 
-The smoothing function is used as a weight to control the contribution of the target encoding for each categorical. Although the implementaion of target encoding is slightly different. 
+The weight to control the contribution of the target encoding for each categorical. Although the implementaion of target encoding is slightly different. Now, smoothing function is a parameter where you can tune as well.  
