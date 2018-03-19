@@ -13,7 +13,7 @@ Elastic net, marriage of statistics and machine learning
 
 # "if you are using regression without regularization, you have to be very special!" - Owen Zhang, NYC data science academy 
 
-## 
+
 
 Penalized regression helps to deal with 2 major issue in regression: feature selection and multi collinearity. It helps to prevent overfitting and give a model that fits the training data less well as compared to OLS but able to capture the generalization better and less sensitive to variation from outliers.
 Elastic net is a general form of ridge and lasso. Think of it as a combination of both.
