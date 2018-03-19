@@ -19,4 +19,4 @@ For this competition, we are tasked with a creating a classification model, to p
 <a href="https://cdn.rawgit.com/germayneng/Kaggle-My-Code-Hub/master/talking_data/eda/talkingdata_eda.nb.html" target='_blank' class="btn btn--info btn--small">Talking Data Exploratory Data Analysis</a>
 
 ## Last update: 19/03/18
-I will be frequently updated this as soon as I can find time. Do check back to find the updated version!
+I will be frequently updating this as soon as I can find time. Do check back to find the updated version!
