@@ -22,7 +22,7 @@ For this competition, we are tasked with a creating a classification model, to p
 
 # Table of Content 
 
-*[Data Exploratory](#data-exploratory)
+* [Data Exploratory](#data-exploratory)
 
 
 # Data Exploratory 
