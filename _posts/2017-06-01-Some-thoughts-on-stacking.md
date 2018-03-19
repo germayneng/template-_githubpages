@@ -24,5 +24,3 @@ As such, I decided to compile a markdown with an example from [Analytics Vidhya]
 
 <a href="https://cdn.rawgit.com/germayneng/Tutorials-Notes/2220f5f0/Ensemble/Stacking/stacking_guide_1.html" target='_blank' class="btn btn--info btn--small">Stacking Guide</a>
 
-
-test
