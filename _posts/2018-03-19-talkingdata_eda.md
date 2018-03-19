@@ -6,7 +6,7 @@ tags: [kaggle, R, notebook, exploratory, data, analysis, eda ]
 comments: true
 ---
 
-Before jumping straight into the competition, let us dwell into the data using EDA!
+Before jumping straight into the competition, let us understand the what we are given!
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
