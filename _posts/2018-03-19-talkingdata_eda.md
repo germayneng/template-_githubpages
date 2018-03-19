@@ -116,10 +116,38 @@ Data collected takes place between 06/11 to 09/11.
 We can also see that the data span across every sec. 
 So from the start of  "2017-11-06 14:32:21" till the end of "2017-11-09 16:00:00"
 
-## Click time{.tabset} 
+## Click time
 
 
 ### Day
 
 Interestingly, 06/11 is a Monday. Does this mean that there is some form of Monday blues? Most of the 0s probably came from 06/11. 
+
+<center><img src="/images/talkingdata_charts/chart2.png?style=centerme"></center>
+
+### Hourly
+
+Note that this data set is based in China, and time in China is **8 hours ahead**. Highest click time hovers around UTC 1-4 am.
+
+UTC | China 
+--- | ---
+1 | 9am
+2 | 10 am
+3 | 11 am
+4 | 12 am
+
+<center><img src="/images/talkingdata_charts/chart3.png?style=centerme"></center>
+
+## Parallel Set 
+
+Let us first do a split, by filtering for groups (unique device-os-app-channel) that are more than 9 and also split the channels by colors so we can have a better visualization. We can see a huge proportion comes from channel 213, and they also installed app 19 as well as 29. Also, majority of these people use device 0. **Some naive hypothesis would be that, channel 213 seems to be where people found out about app 19 and 29. Also, could it be the device 0 version of this app is better done since most people who installed it are on device 0**
+
+<center><img src="/images/talkingdata_charts/chart4.png?style=centerme"></center>
+
+Filtering for the smaller groups, we can see:
+
+* there are less device 0 users. Majority are using device 1,2...etc
+* Again, people who installed app 19 comes from channel 213
+
+<center><img src="/images/talkingdata_charts/chart5.png?style=centerme"></center>
 
