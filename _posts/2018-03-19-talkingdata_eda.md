@@ -152,4 +152,4 @@ Filtering for the smaller groups, we can see:
 <center><img src="/images/talkingdata_charts/chart5.png?style=centerme"></center>
 
 
-# To be continued, last update: 18/03/17
+# To be continued, last update: 18/03/18
