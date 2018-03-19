@@ -101,6 +101,6 @@ Let us also check from blanks; based on the initial glimpse of the data, we can 
 
 I believe one important concern we have would be the class distribution of the dataset, but how unbalance will this data set be? Seems like there is a case of severe imbalance of data.
 
-
+<center><img src="/images/talkingdata_charts/chart1.png?style=centerme"></center>
 
 
