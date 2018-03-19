@@ -92,6 +92,15 @@ attributed_time attributed_time     0
 is_attributed     is_attributed     0
 ```
 
-Let us also check from blanks; based on the initial glimpse of the data, we can directly check that attributed_time contains lots of empty entries, total of `r  (184447044 / nrow(df)) *100` %. We can definitely drop this variable off.  
+Let us also check from blanks; based on the initial glimpse of the data, we can directly check that attributed_time contains lots of empty entries, total of **99,7 %.** We can definitely drop this variable off.  
+
+# Visualizations
+
+
+## Proportion of Target variable 
+
+I believe one important concern we have would be the class distribution of the dataset, but how unbalance will this data set be? Seems like there is a case of severe imbalance of data.
+
+
 
 
