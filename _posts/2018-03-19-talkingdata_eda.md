@@ -40,4 +40,37 @@ For this competition, we are tasked with a creating a classification model, to p
     5:             0
     6:             0
 
+## Variables
 
+Looking at the columns, we have total of 8 variables: 
+
+>
+    [1] "ip"              "app"             "device"          "os"              "channel"        
+    [6] "click_time"      "attributed_time" "is_attributed"  
+
+
+I am also curious on the total number of unique values each variables have in placed: 
+
+> 
+                 ip             app          device              os         channel 
+             277396             706            3475             800             202 
+           click_time attributed_time   is_attributed 
+             259620          182058               2 
+             
+Let us take into account what kaggle has posted:  
+
+
+```text 
+Each row of the training data contains a click record, with the following features.
+
+* ip: ip address of click.
+* app: app id for marketing.
+* device: device type id of user mobile phone (e.g., iphone 6 plus, iphone 7, huawei mate 7, etc.)
+* os: os version id of user mobile phone
+* channel: channel id of mobile ad publisher
+* click_time: timestamp of click (UTC)
+* attributed_time: if user download the app for after clicking an ad, this is the time of the app download
+* is_attributed: the target that is to be predicted, indicating the app was downloaded
+
+Note that ip, app, device, os, and channel are encoded
+```
