@@ -20,6 +20,11 @@ Kaggle recently launched a new competition, sponsored by talkingdata. Talkingdat
 
 For this competition, we are tasked with a creating a classification model, to predict if the users will download the app if they are to click on the mobile app ad. I have decided to share the EDA that I will be first doing before jumping into the modelling process. 
 
+# Table of Content 
+
+*[Data Exploratory](#data-exploratory)
+
+
 # Data Exploratory 
 
 ## Basic look of Dataset 
