@@ -103,4 +103,23 @@ I believe one important concern we have would be the class distribution of the d
 
 <center><img src="/images/talkingdata_charts/chart1.png?style=centerme"></center>
 
+## Time period 
+
+We can see that the train data span across 4 days, as mentioned in kaggle's introduction of this competition: 
+
+>
+    To support your modeling, they have provided a generous dataset covering approximately 200 million clicks over 4 days!
+
+
+Data collected takes place between 06/11 to 09/11. 
+
+We can also see that the data span across every sec. 
+So from the start of  "2017-11-06 14:32:21" till the end of "2017-11-09 16:00:00"
+
+## Click time{.tabset} 
+
+
+### Day
+
+Interestingly, 06/11 is a Monday. Does this mean that there is some form of Monday blues? Most of the 0s probably came from 06/11. 
 
