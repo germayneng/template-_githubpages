@@ -16,3 +16,4 @@ Kaggle recently launched a new competition, sponsored by talkingdata. Talkingdat
 
 For this competition, we are tasked with a creating a classification model, to predict if the users will download the app if they are to click on the mobile app ad. I have decided to share the EDA that I will be first doing before jumping into the modelling process. Since i am doing it straight on a r notebook, I will be sharing the link below to the hosted r notebook. You should be able to view it directly: 
 
+<a href="https://cdn.rawgit.com/germayneng/Tutorials-Notes/2220f5f0/Ensemble/Stacking/stacking_guide_1.html" target='_blank' class="btn btn--info btn--small">Stacking Guide</a>
