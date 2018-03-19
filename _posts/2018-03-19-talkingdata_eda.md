@@ -30,8 +30,8 @@ For this competition, we are tasked with a creating a classification model, to p
     + [Proportion of Target variable](#proportion-of-target-variable)
     + [Time-period](#time-period)
     + [Click Time](#click-time)
-          * [Day](#day)
-          * [Hourly](#hourly) 
+            * [Day](#day)
+            * [Hourly](#hourly) 
     + [Parallel Set Charts](#parallel-set)   
         
 # Data Exploratory 
