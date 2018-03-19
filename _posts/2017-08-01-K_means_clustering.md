@@ -291,21 +291,16 @@ fviz_cluster(km.res, data = df,
 # Pros and Cons 
 
 
-## Pros 
-
-* Very efficient. 
-
+Pros | Cons 
+--- | --- 
+Very efficient |  Prone to outliers
+--- | ---
 $$
-O(no.iteration * no.clusters * no.instances * no.data \ dimensions)
+O(no.iteration * no.clusters * no.instances * no.data \ dimensions) | Cannot have categorical variables (since we are computing means, must be numerical)
 $$
+--- | ---
+Make use of all the data 
 
-* Make use of all the data 
-
-## Cons 
-
-* Prone to outliers
-
-* Cannot have categorical variables (since we are computing means, must be numerical)
 
 
 # References 
