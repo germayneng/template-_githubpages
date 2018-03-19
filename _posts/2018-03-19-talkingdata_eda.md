@@ -10,7 +10,9 @@ Before jumping straight into the competition, let us dwell into the data using E
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-<center>![](https://kaggle2.blob.core.windows.net/competitions/kaggle/5340/logos/front_page.png)</center>
+<center>
+![](https://kaggle2.blob.core.windows.net/competitions/kaggle/5340/logos/front_page.png)
+</center>
 
 Kaggle recently launched a new competition, sponsored by talkingdata. Talkingdata is based in China, 
 
