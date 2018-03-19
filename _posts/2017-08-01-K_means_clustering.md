@@ -117,11 +117,13 @@ we can obtain:
 * cluster assignment 
 * within cluster variation
 
-```R
+{% highlight r %}
 iris_cluster
-```
+{% endhighlight %}
 
-   >
+
+
+{% highlight text %}
     ## K-means clustering with 3 clusters of sizes 50, 38, 62
     ## 
     ## Cluster means:
@@ -146,15 +148,15 @@ iris_cluster
     ## [1] "cluster"      "centers"      "totss"        "withinss"    
     ## [5] "tot.withinss" "betweenss"    "size"         "iter"        
     ## [9] "ifault"
-
+{% endhighlight %}
 
 
 
 Let us plot the cluster grouping:
 
-```R
+{% highlight r %}
 iris_cluster$cluster <- as.factor(iris_cluster$cluster)
-```
+{% endhighlight %}
 
 ```R
 ggplot(iris, aes(Petal.Length, Petal.Width, color = iris_cluster$cluster)) + geom_point()
@@ -172,7 +174,8 @@ iris$species_cluster <- iris_cluster$cluster
 ```R
 tbl_df(iris)
 ```
-   >
+
+{% highlight text %}
     ## # A tibble: 150 x 6
     ##    Sepal.Length Sepal.Width Petal.Length Petal.Width Species
     ##           <dbl>       <dbl>        <dbl>       <dbl>  <fctr>
@@ -187,7 +190,7 @@ tbl_df(iris)
     ##  9          4.4         2.9          1.4         0.2  setosa
     ## 10          4.9         3.1          1.5         0.1  setosa
     ## # ... with 140 more rows, and 1 more variables: species_cluster <fctr>
-
+{% endhighlight %}
 
 
 # Example 2: using Facto packages 
