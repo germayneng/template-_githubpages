@@ -1,7 +1,7 @@
 ---
 layout: single
 title: 'Kaggle: Talkingdata Exploratory Data Analysis'
-category: tutorial
+category: eda
 tags: [kaggle, R, notebook, exploratory, data, analysis, eda ]
 comments: true
 ---
