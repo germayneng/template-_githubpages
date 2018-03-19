@@ -65,3 +65,8 @@ weight \ = \frac{1}{1 + e^ \frac{-(count_{i} - min\; sample \; leaf )}{smoothing
 $$
 
 The weight to control the contribution of the target encoding for each categorical. Although the implementaion of target encoding is slightly different. Now, smoothing function is a parameter where you can tune as well.  
+
+
+## Conclusion
+
+In short, target encoding is a really powerful advance feature engineering method. However, target encoding is no free lunch. I have found instances where it [fell short](https://www.kaggle.com/c/porto-seguro-safe-driver-prediction) as opposed to simpler techniques like [one hot encoding](https://en.wikipedia.org/wiki/One-hot). More importantly, do know the trade-offs and be very careful in implementation because doing it wrong will result in heavy leakages. 
