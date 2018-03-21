@@ -16,6 +16,19 @@ Today, we will be exploring and discussing k means clustering.
 K Means Clustering is a form of  unsupervised learning algorithm which cluster observations based on the variable similarity. 
 Recall, when we talk about unsupervised learning, this means that unlike supervised learning, we are not defining an output given an input. Instead, the algorithm will find a pattern with the dataset and return the finding. In this case, the algorithm will attempt to group (cluster) datasets together.  
 
+# Algorithm 
+
+The algorithm is a series of iterations following this:
+
+* step 1: Reassign data points to the cluster whose centroid is closest. (For each point x, find the nearest centroid and assign that point to that centroid.)
+* step 2: Calculate new centroid of each cluster. (For each cluster, compute new centroid value , which is a mean of all points x that was assigned in cluster in previous step)
+
+Repeat iteration until convergence/ within cluster variation (sum of squared euclidean distance between data points and its cluster centroids) cannot be reduced. 
+$$
+arg \ min \ D(x_{i},c_k)
+$$
+
+
 
 # How does it works? 
 
@@ -39,32 +52,24 @@ $$
 
 <br>
 <center><img src="/images/k_means_image/k_means_1.JPG?style=centerme"></center>
+_<center>Initial centroids on data points</center>_
 <br>
 
-Now, we will begin each iteration until convergence/ within cluster variation (sum of euclidean distance between data points and its cluster centroids) cannot be reduced. 
 
-
-* step 1: Reassign data points to the cluster whose centroid is closest. (For each point x, find the nearest centroid and assign that point to that centroid.)
-* step 2: Calculate new centroid of each cluster. (For each cluster, compute new centroid value , which is a mean of all points x that was assigned in cluster in previous step)
-
-
-What this means is that we will group the data points to the 2 clusters. The assignment will be based on for example, the nearest euclidean distance. 
-
-$$
-arg \ min \ D(x_{i},c_k)
-$$
-
+With the 2 centroid randomly place, we can also cluster them based on the nearest euclidean distance  (Recall, we want the clusters to be as compact as possible) between each accounts to the mean of the cluster.
 
 
 <br>
 <center><img src="/images/k_means_image/k_means_2.JPG?style=centerme"></center>
+_<center>Clusters based on initial centroid</center>_
 <br>
 
-And with that, we will have them group in the clusters. Now, we will begin step 2, to compute the new centroid based on the mean of the cluster. So now, we have 2 new centroids. 
 
+Now, we will begin step 2, to compute the new centroid based on the mean of the cluster. So now, we have 2 new centroids.
 
 <br>
 <center><img src="/images/k_means_image/k_means_3.JPG?style=centerme"></center>
+_<center>Running step 2: New centroids computed based on the mean of clusters</center>
 <br>
 
 
@@ -72,6 +77,7 @@ This will be repeated till  none of the cluster assignments change. The next ite
 
 <br>
 <center><img src="images/k_means_image/k_means_4.JPG?style=centerme"></center>
+_<center>Repeat step 1 & 2 again in next iteration</center>
 <br>
 
 
