@@ -2,6 +2,7 @@
 layout: single
 title: 'Kaggle: Talkingdata Exploratory Data Analysis'
 category: eda
+theme: cosmo
 tags: [kaggle, R, notebook, exploratory, data, analysis, eda ]
 comments: true
 ---
