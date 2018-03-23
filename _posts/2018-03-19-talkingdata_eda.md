@@ -112,7 +112,9 @@ is_attributed     is_attributed     0
 
 Let us also check from blanks; based on the initial glimpse of the data, we can directly check that attributed_time contains lots of empty entries, total of **99,7 %.** We can definitely drop this variable off.  
 
+<br>
 ---
+<br>
 
 # Visualizations
 
@@ -123,6 +125,10 @@ I believe one important concern we have would be the class distribution of the d
 
 <center><img src="/images/talkingdata_charts/chart1.png?style=centerme"></center>
 
+
+<br>
+---
+<br>
 
 ## Proportion of variables 
 
@@ -149,7 +155,9 @@ It seems like naively, the higher the ip click count, the more apps downloaded f
 
 <center><img src="/images/talkingdata_charts/pov_ip_1.png?style=centerme"></center>
 
-
+<br>
+---
+<br>
 
 ## Time period 
 
@@ -163,6 +171,10 @@ Data collected takes place between 06/11 to 09/11.
 
 We can also see that the data span across every sec. 
 So from the start of  "2017-11-06 14:32:21" till the end of "2017-11-09 16:00:00"
+
+<br>
+---
+<br>
 
 ## Click time
 
@@ -196,6 +208,11 @@ It seems that the popular timing (since the data set given is on weekdays) are d
 
 <center><img src="/images/talkingdata_charts/chart3.png?style=centerme"></center>
 
+
+<br>
+---
+<br>
+
 ## Parallel Set 
 
 Let us first do a split, by filtering for groups (unique device-os-app-channel) that are more than 9 and also split the channels by colors so we can have a better visualization. We can see a huge proportion comes from channel 213, and they also download app 19 as well as 29. Also, majority of these people use device 0. **Some naive hypothesis would be that, channel 213 seems to be where people found out about app 19 and 29. Also, could it be the device 0 version of this app is better done since most people who downloaded them are on device 0**
@@ -208,6 +225,11 @@ Filtering for the smaller groups, we can see:
 * Again, people who downloaded app 19 comes from channel 213
 
 <center><img src="/images/talkingdata_charts/chart5.png?style=centerme"></center>
+
+
+<br>
+---
+<br>
 
 ## Download Rates 
 
