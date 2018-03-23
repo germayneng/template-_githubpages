@@ -140,6 +140,12 @@ Let us verify this later with a correlation plot.
 
 <center><img src="/images/talkingdata_charts/pov_app_1.png?style=centerme"></center>
 
+### IP 
+
+It seems like naively, the higher the ip click count, the more apps downloaded from the particular IP address, except for some IPs which may be spamming. There could be some pattern between click count and possibility of download from a particular IP. As such, **we may be able to use this information for modelling. Maybe something like - historical number of clicks from IP?**
+
+<center><img src="/images/talkingdata_charts/pov_ip_1.png?style=centerme"></center>
+
 
 
 ## Time period 
