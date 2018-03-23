@@ -34,7 +34,7 @@ For this competition, we are tasked with a creating a classification model, to p
         - [Day](#day)
         - [Hourly](#hourly) 
     + [Parallel Set Charts](#parallel-set)
-    + [Installation Rates]()
+    + [Installation Rates](#installation-rates)
         - [By IP]()
         
 # Data Exploratory 
