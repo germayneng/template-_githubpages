@@ -33,7 +33,9 @@ For this competition, we are tasked with a creating a classification model, to p
     + [Click Time](#click-time)
         - [Day](#day)
         - [Hourly](#hourly) 
-    + [Parallel Set Charts](#parallel-set)   
+    + [Parallel Set Charts](#parallel-set)
+    + [Installation Rates]()
+        - [By IP]()
         
 # Data Exploratory 
 
@@ -181,7 +183,7 @@ Filtering for the smaller groups, we can see:
 
 ### By IP 
 
-This is done by [CPMP](https://www.kaggle.com/cpmpml/ip-download-rates), which i think is very very insightful. So i decide to include this insight here as well. 
+This is inspired by [CPMP](https://www.kaggle.com/cpmpml/ip-download-rates), which i think is very very insightful. So i decide to include this insight here as well. 
 
 
 Let's compute the rate of installation by ip to see the average installation rate, from 0-1. 
