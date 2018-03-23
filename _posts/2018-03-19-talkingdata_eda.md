@@ -240,7 +240,7 @@ One more level of zoom, between 126400 to 126500, we can see a spike from the st
 Comparing to the test set (Thank you CPMP, as well as [Julia](https://www.kaggle.com/yuliagm/be-careful-about-ips-as-a-signal/comments#latest-301610))
 we can see that most of the test ip belong to < 126413
 
-Knowing this, it seems that training from the train set, the is_attributed is at the lower end for ips in test set.
+Here is the printed result of the tail of the test set arranged by ip:
 
 ```text
          click_id     ip app device os channel          click_time
@@ -255,5 +255,6 @@ Knowing this, it seems that training from the train set, the is_attributed is at
 18790468 16820930 126413  19    168  0     282 2017-11-10 14:23:18
 18790469 16922809 126413  19    168  0     282 2017-11-10 14:25:03
 ```
+Knowing this, it seems that training from the train set, the is_attributed is at the lower end for ips in test set.
 
 <center><img src="/images/talkingdata_charts/rolling_4.png?style=centerme"></center>
