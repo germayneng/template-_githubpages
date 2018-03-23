@@ -113,7 +113,9 @@ is_attributed     is_attributed     0
 Let us also check from blanks; based on the initial glimpse of the data, we can directly check that attributed_time contains lots of empty entries, total of **99,7 %.** We can definitely drop this variable off.  
 
 <br>
+
 ---
+
 <br>
 
 # Visualizations
@@ -127,7 +129,9 @@ I believe one important concern we have would be the class distribution of the d
 
 
 <br>
+
 ---
+
 <br>
 
 ## Proportion of variables 
@@ -156,7 +160,9 @@ It seems like naively, the higher the ip click count, the more apps downloaded f
 <center><img src="/images/talkingdata_charts/pov_ip_1.png?style=centerme"></center>
 
 <br>
+
 ---
+
 <br>
 
 ## Time period 
@@ -173,7 +179,9 @@ We can also see that the data span across every sec.
 So from the start of  "2017-11-06 14:32:21" till the end of "2017-11-09 16:00:00"
 
 <br>
+
 ---
+
 <br>
 
 ## Click time
@@ -210,7 +218,9 @@ It seems that the popular timing (since the data set given is on weekdays) are d
 
 
 <br>
+
 ---
+
 <br>
 
 ## Parallel Set 
@@ -228,7 +238,9 @@ Filtering for the smaller groups, we can see:
 
 
 <br>
+
 ---
+
 <br>
 
 ## Download Rates 
