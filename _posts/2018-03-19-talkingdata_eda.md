@@ -93,6 +93,7 @@ Note that ip, app, device, os, and channel are encoded
 ```
 
 
+
 ## Missing Data 
 
 This is a good data set since most / all of the variable do not seem to have NA values.
@@ -110,6 +111,8 @@ is_attributed     is_attributed     0
 ```
 
 Let us also check from blanks; based on the initial glimpse of the data, we can directly check that attributed_time contains lots of empty entries, total of **99,7 %.** We can definitely drop this variable off.  
+
+---
 
 # Visualizations
 
