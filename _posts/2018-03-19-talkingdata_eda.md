@@ -236,3 +236,24 @@ Zooming in, let us identify the sudden spike of mean.
 One more level of zoom, between 126400 to 126500, we can see a spike from the start of around ip 126400++
 
 <center><img src="/images/talkingdata_charts/rolling_3.png?style=centerme"></center>
+
+Comparing to the test set (Thank you CPMP, as well as [Julia](https://www.kaggle.com/yuliagm/be-careful-about-ips-as-a-signal/comments#latest-301610))
+we can see that most of the test ip belong to < 126413
+
+Knowing this, it seems that training from the train set, the is_attributed is at the lower end for ips in test set.
+
+```text
+         click_id     ip app device os channel          click_time
+18790460 18453009 126411  18      1  8     265 2017-11-10 14:53:19
+18790461 18453172 126411   2      1  8     237 2017-11-10 14:53:19
+18790462 18453284 126411  11      1  8     137 2017-11-10 14:53:20
+18790463 18453492 126411  12      1  8     259 2017-11-10 14:53:20
+18790464  1653413 126412  18      1 16     379 2017-11-10 04:29:05
+18790465  6553650 126412  12      1 13     265 2017-11-10 09:06:43
+18790466  7640395 126412  12      1 13     105 2017-11-10 09:28:49
+18790467 17991861 126412  29      2 19     210 2017-11-10 14:44:28
+18790468 16820930 126413  19    168  0     282 2017-11-10 14:23:18
+18790469 16922809 126413  19    168  0     282 2017-11-10 14:25:03
+```
+
+<center><img src="/images/talkingdata_charts/rolling_4.png?style=centerme"></center>
