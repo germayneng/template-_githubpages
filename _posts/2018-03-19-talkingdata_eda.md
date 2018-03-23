@@ -151,6 +151,16 @@ UTC | China
 3 | 11 am
 4 | 12 am
 
+next batch will be: 
+
+UTC | China 
+--- | ---
+11 | 7pm
+12 | 8pm
+13 | 9pm
+
+It seems that the popular timing (since the data set given is on weekdays) are during the morning as well as the night period. One hypothesis will be that people are surfing websites as they commute to work up till lunch break or back from work. 
+
 <center><img src="/images/talkingdata_charts/chart3.png?style=centerme"></center>
 
 ## Parallel Set 
@@ -166,5 +176,41 @@ Filtering for the smaller groups, we can see:
 
 <center><img src="/images/talkingdata_charts/chart5.png?style=centerme"></center>
 
+## Installation Rates 
 
-# To be continued, last update: 18/03/18
+
+### By IP 
+
+This is done by [CPMP](https://www.kaggle.com/cpmpml/ip-download-rates), which i think is very very insightful. So i decide to include this insight here as well. 
+
+
+Let's compute the rate of installation by ip to see the average installation rate, from 0-1. 
+
+```text 
+# A tibble: 10 x 2
+      ip installation_rate
+   <int>             <dbl>
+ 1     1      0.1914893617
+ 2     5      0.0000000000
+ 3     6      0.0013755158
+ 4     9      0.0014892033
+ 5    10      0.0025423729
+ 6    19      0.0047281324
+ 7    20      0.0006699045
+ 8    25      0.0044843049
+ 9    27      0.0015977631
+10    31      0.0028873917
+``` 
+
+
+Computing the rolling mean and plotting the moving average: I decide to alter the window to 10,000 to make the lines thinner.
+
+<center><img src="/images/talkingdata_charts/rolling_1.png?style=centerme"></center>
+
+Zooming in, let us identify the sudden spike of mean.
+
+<center><img src="/images/talkingdata_charts/rolling_2.png?style=centerme"></center>
+
+One more level of zoom, between 126400 to 126500, we can see a spike from the start of around ip 126400++
+
+<center><img src="/images/talkingdata_charts/rolling_3.png?style=centerme"></center>
