@@ -34,7 +34,7 @@ For this competition, we are tasked with a creating a classification model, to p
         - [Day](#day)
         - [Hourly](#hourly) 
     + [Parallel Set Charts](#parallel-set)
-    + [Installation Rates](#installation-rates)
+    + [Download Rates](#download-rates)
         - [By IP](#by-ip)
         
 # Data Exploratory 
@@ -127,7 +127,7 @@ I believe one important concern we have would be the class distribution of the d
 ### App
 
 
-From the dataset, we can see the top 10 most popular app are as follows, regardless if there are installed or not. Popularity of app could be due to the channel since we are not considering if there are installed.
+From the dataset, we can see the top 10 most popular app are as follows, regardless if there are downloaded or not. Popularity of app could be due to the channel since we are not considering if there are downloaded.
 
 Comparing the 2 charts, we can see that there are some differences between the 2. For example, app3 is being clicked on the most, but yet not the top app when it comes to number of downloads. In fact, none of the top 10 apps clicked except  3 and 9 appears in the top 10 most downloaded app list.
 
