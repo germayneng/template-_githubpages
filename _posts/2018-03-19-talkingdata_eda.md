@@ -129,15 +129,17 @@ I believe one important concern we have would be the class distribution of the d
 
 From the dataset, we can see the top 10 most popular app are as follows, regardless if there are installed or not. Popularity of app could be due to the channel since we are not considering if there are installed.
 
-Comparing the 2 charts, we can see that there are some differences between the 2. For example, app3 is being clicked on the most, but yet not the top app when it comes to number of installations. In fact, none of the top 10 apps clicked except  3 and 9 appears in the top 10 most installed app list.
+Comparing the 2 charts, we can see that there are some differences between the 2. For example, app3 is being clicked on the most, but yet not the top app when it comes to number of downloads. In fact, none of the top 10 apps clicked except  3 and 9 appears in the top 10 most downloaded app list.
 
-Some naive hypthosis would be that perhaps the channels that the other apps are in contains heavy traffic but not apps that people would like? Or perhaps these apps frequently pop up (and users just cancelled them?)
+Some naive hypthosis would be that perhaps the channels that the other apps are in, contains heavy traffic but not apps that people would like? Or perhaps these apps frequently pop up (and users just cancelled them?)
+
+Regardless, something holds: **that is the total number of app clicked does not correlate to whether an app will be downloaded**. (If you want your app to be downloaded, spamming people does not mean that you will get more downloads)
+
+Let us verify this later with a correlation plot.
 
 
 <center><img src="/images/talkingdata_charts/pov_app_1.png?style=centerme"></center>
-<br> 
 
-<center><img src="/images/talkingdata_charts/pov_app_2.png?style=centerme"></center>
 
 
 ## Time period 
@@ -187,18 +189,18 @@ It seems that the popular timing (since the data set given is on weekdays) are d
 
 ## Parallel Set 
 
-Let us first do a split, by filtering for groups (unique device-os-app-channel) that are more than 9 and also split the channels by colors so we can have a better visualization. We can see a huge proportion comes from channel 213, and they also installed app 19 as well as 29. Also, majority of these people use device 0. **Some naive hypothesis would be that, channel 213 seems to be where people found out about app 19 and 29. Also, could it be the device 0 version of this app is better done since most people who installed it are on device 0**
+Let us first do a split, by filtering for groups (unique device-os-app-channel) that are more than 9 and also split the channels by colors so we can have a better visualization. We can see a huge proportion comes from channel 213, and they also download app 19 as well as 29. Also, majority of these people use device 0. **Some naive hypothesis would be that, channel 213 seems to be where people found out about app 19 and 29. Also, could it be the device 0 version of this app is better done since most people who downloaded them are on device 0**
 
 <center><img src="/images/talkingdata_charts/chart4.png?style=centerme"></center>
 
 Filtering for the smaller groups, we can see:
 
 * there are less device 0 users. Majority are using device 1,2...etc
-* Again, people who installed app 19 comes from channel 213
+* Again, people who downloaded app 19 comes from channel 213
 
 <center><img src="/images/talkingdata_charts/chart5.png?style=centerme"></center>
 
-## Installation Rates 
+## Download Rates 
 
 
 ### By IP 
@@ -206,11 +208,11 @@ Filtering for the smaller groups, we can see:
 This is inspired by [CPMP](https://www.kaggle.com/cpmpml/ip-download-rates), which i think is very very insightful. So i decide to include this insight here as well. 
 
 
-Let's compute the rate of installation by ip to see the average installation rate, from 0-1. 
+Let's compute the rate of Download by ip to see the average download rate, from 0-1. 
 
 ```text 
 # A tibble: 10 x 2
-      ip installation_rate
+      ip download_rate
    <int>             <dbl>
  1     1      0.1914893617
  2     5      0.0000000000
