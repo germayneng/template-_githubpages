@@ -120,6 +120,26 @@ I believe one important concern we have would be the class distribution of the d
 
 <center><img src="/images/talkingdata_charts/chart1.png?style=centerme"></center>
 
+
+## Proportion of variables 
+
+
+### App
+
+
+From the dataset, we can see the top 10 most popular app are as follows, regardless if there are installed or not. Popularity of app could be due to the channel since we are not considering if there are installed.
+
+Comparing the 2 charts, we can see that there are some differences between the 2. For example, app3 is being clicked on the most, but yet not the top app when it comes to number of installations. In fact, none of the top 10 apps clicked except  3 and 9 appears in the top 10 most installed app list.
+
+Some naive hypthosis would be that perhaps the channels that the other apps are in contains heavy traffic but not apps that people would like? Or perhaps these apps frequently pop up (and users just cancelled them?)
+
+
+<center><img src="/images/talkingdata_charts/pov_app_1.png?style=centerme"></center>
+<br> 
+
+<center><img src="/images/talkingdata_charts/pov_app_2.png?style=centerme"></center>
+
+
 ## Time period 
 
 We can see that the train data span across 4 days, as mentioned in kaggle's introduction of this competition: 
