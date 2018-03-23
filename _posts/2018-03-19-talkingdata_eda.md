@@ -229,7 +229,7 @@ Let's compute the rate of Download by ip to see the average download rate, from 
 
 Computing the rolling mean and plotting the moving average: I decide to alter the window to 10,000 to make the lines thinner.
 
-<center><img src="/images/talkingdata_charts/rolling_1.png?style=centerme"></center>
+<center><img src="/images/talkingdata_charts/rolling_main.png?style=centerme"></center>
 
 Zooming in, let us identify the sudden spike of mean.
 
