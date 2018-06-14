@@ -7,10 +7,9 @@ image:
   feature: banner.jpg
 ---
 
-I am a data scientist who aims to solve different business problems for clients. I aim to solve questions using data, utilizing predicitive as well as prescriptive analytics. 
+I am a data scientist who aims to solve different business problems for clients. I aim to solve questions using data, utilizing predicitive as well as prescriptive analytics. A good analogy would be to compare data scientists to chefs. The data will be equivalent to the raw ingredients. Machine learning algorithms, R, python will be similar to kitchen equipments. It will be an art for data scientists/ chefs to wipe up something good from it. 
 
-<center><img src = "https://i.pinimg.com/originals/a3/e0/99/a3e099bafddd61abfffe1b3202796c58.jpg"></center>
-_<center>This is what a data scientist does!</center>_ 
+<center><img src = "https://i.pinimg.com/originals/b5/f7/18/b5f718ec601784f0fae0d20383869d6a.png"></center>
 
 Apart from that, I am very interested in state of the art machine learning and deep learning techniques. Since young, I have been intrigued by how artificial intelligence works (see Will Smith's I,Robot). I have also participate in kaggle frequently and obtained the **[kaggle expert](https://www.kaggle.com/germmie)** title as of now. 
 
