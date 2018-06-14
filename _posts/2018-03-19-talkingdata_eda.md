@@ -112,6 +112,18 @@ is_attributed     is_attributed     0
 
 Let us also check from blanks; based on the initial glimpse of the data, we can directly check that attributed_time contains lots of empty entries, total of **99,7 %.** We can definitely drop this variable off.  
 
+This makes sense because:
+
+1. attributed_time follows is_attributed == 1
+2. Knowing that we have heavy class imbalance (which we will see later), largely will be missing (blanks)
+
+
+Checking the number of blanks in `attributed_time` leads to: 
+
+```text 
+[1] 184447044
+``` 
+
 <br>
 
 ---
@@ -128,6 +140,7 @@ I believe one important concern we have would be the class distribution of the d
 <center><img src="/images/talkingdata_charts/chart1.png?style=centerme"></center>
 
 
+
 <br>
 
 ---
@@ -139,10 +152,9 @@ I believe one important concern we have would be the class distribution of the d
 
 ### App
 
-
 From the dataset, we can see the top 10 most popular app are as follows, regardless if there are downloaded or not. Popularity of app could be due to the channel since we are not considering if there are downloaded.
 
-Comparing the 2 charts, we can see that there are some differences between the 2. For example, app3 is being clicked on the most, but yet not the top app when it comes to number of downloads. In fact, none of the top 10 apps clicked except  3 and 9 appears in the top 10 most downloaded app list.
+Comparing the 2 charts, we can see that there are some differences between the 2. For example, app3 is being clicked on the most, but yet not the top app when it comes to number of downloads. In fact, none of the top 10 apps clicked except 3 and 9 appears in the top 10 most downloaded app list.
 
 Some naive hypthosis would be that perhaps the channels that the other apps are in, contains heavy traffic but not apps that people would like? Or perhaps these apps frequently pop up (and users just cancelled them?)
 
