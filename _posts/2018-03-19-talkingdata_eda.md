@@ -312,6 +312,6 @@ Here is the printed result of the tail of the test set arranged by ip:
 18790468 16820930 126413  19    168  0     282 2017-11-10 14:23:18
 18790469 16922809 126413  19    168  0     282 2017-11-10 14:25:03
 ```
-Knowing this, it seems that training from the train set, the is_attributed is at the lower end for ips in test set.
+From here, we can see that the IPs that are present in the test set have low download rates in the train set. The resulting model may only understood that these IPs (from the test set) may not download the app. This is just a surface level hypothesis.
 
 <center><img src="/images/talkingdata_charts/rolling_4.png?style=centerme"></center>
